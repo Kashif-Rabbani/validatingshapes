@@ -36,6 +36,13 @@ You can download a copy of these datasets from our [single archive](http://130.2
 We have published the extracted SHACL shapes of all three datasets on [Zenodo](https://doi.org/10.5281/zenodo.5958986).
 Additionally, we have also made available an executable Jar file of our application on Zenodo to extract SHACL shapes from RDF datasets in `.nt` format.
 
+---
+:star: **Good News** :star: Source Code is also available now!
+
+We have made the source code available in the [code](https://github.com/kashif-rabbani/validatingshapes/tree/main/code/shacl) directory along with instructions on how to run the code. 
+
+---
+
 ### How to run the Jar?
 
 - Download the Jar from the [Zenodo](https://doi.org/10.5281/zenodo.5958986)
