@@ -1,7 +1,7 @@
 # SHACL and ShEx in the Wild❗
 
 ## A Community Survey on Validating Shapes Generation and Adoption
-
+[https://relweb.cs.aau.dk/validatingshapes/](https://relweb.cs.aau.dk/validatingshapes/)
 
 Knowledge Graphs (KGs) are the de-facto standard to represent heterogeneous domain knowledge on the Web and within organizations. Various tools and approaches exist to manage KGs and ensure the quality of their data. Among these, the Shapes Constraint Language (SHACL) and the Shapes Expression Language (ShEx) are the two state-of-the-art languages to define validating shapes for KGs. In the last few years, the usage of these constraint languages has increased, and hence new needs arose. One such need is to enable the efficient generation of these shapes. Yet, since these languages are relatively new, we witness a lack of understanding of how they are effectively employed for existing KGs. Therefore, in this work, we answer **How validating shapes are being generated and adopted?** Our contribution is threefold. First, we conducted a community survey to analyze the needs of users (both from industry and academia) generating validating shapes. Then, we cross-referenced our results with an extensive survey of the existing tools and their features. Finally, we investigated how existing automatic shape extraction approaches work in practice on real, large KGs. **Our analysis shows the need for developing semi-automatic methods that can help users generate shapes from large KGs.**
 
