@@ -1,11 +1,12 @@
 # SHACL and ShEx in the Wild❗
 
 ## A Community Survey on Validating Shapes Generation and Adoption
-[https://relweb.cs.aau.dk/validatingshapes/](https://relweb.cs.aau.dk/validatingshapes/)
 
 Knowledge Graphs (KGs) are the de-facto standard to represent heterogeneous domain knowledge on the Web and within organizations. Various tools and approaches exist to manage KGs and ensure the quality of their data. Among these, the Shapes Constraint Language (SHACL) and the Shapes Expression Language (ShEx) are the two state-of-the-art languages to define validating shapes for KGs. In the last few years, the usage of these constraint languages has increased, and hence new needs arose. One such need is to enable the efficient generation of these shapes. Yet, since these languages are relatively new, we witness a lack of understanding of how they are effectively employed for existing KGs. Therefore, in this work, we answer **How validating shapes are being generated and adopted?** Our contribution is threefold. First, we conducted a community survey to analyze the needs of users (both from industry and academia) generating validating shapes. Then, we cross-referenced our results with an extensive survey of the existing tools and their features. Finally, we investigated how existing automatic shape extraction approaches work in practice on real, large KGs. **Our analysis shows the need for developing semi-automatic methods that can help users generate shapes from large KGs.**
 
+Read the paper: [https://dl.acm.org/doi/10.1145/3487553.3524253](https://dl.acm.org/doi/10.1145/3487553.3524253)
 
+Visit our website for more details: [https://relweb.cs.aau.dk/validatingshapes/](https://relweb.cs.aau.dk/validatingshapes/)
 
 ## Datasets
 We have used the following datasets:
@@ -80,5 +81,20 @@ We ran some experiments to find out the real capabilities of the following exist
 The content present in this repository is available at
 [https://github.com/Kashif-Rabbani/validatingshapes](https://github.com/Kashif-Rabbani/validatingshapes) under [Apache License 2.0](https://github.com/Kashif-Rabbani/validatingshapes/blob/main/LICENSE) .
 
+### Citing the work
+Please cite us if you use the code in your project or publication
 
+```bibtex
+@inproceedings{DBLP:conf/www/RabbaniLH22,
+  author       = {Kashif Rabbani and
+                  Matteo Lissandrini and
+                  Katja Hose},
+  title        = {{SHACL} and ShEx in the Wild: {A} Community Survey on Validating Shapes
+                  Generation and Adoption},
+  booktitle    = {{WWW} (Companion Volume)},
+  pages        = {260--263},
+  publisher    = {{ACM}},
+  year         = {2022}
+}
+```
 
